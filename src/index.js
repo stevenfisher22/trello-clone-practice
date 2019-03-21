@@ -49,15 +49,23 @@ const AddButton = () => (
 const Items = [
     {
         id: 1, 
-        title: 'Subwoofer'
+        title: 'Savannah'
     },
     {
         id: 2, 
-        title: 'Wings'
+        title: 'Is'
     },
     {
         id: 3, 
-        title: 'Seedless'
+        title: 'The'
+    },
+    {
+        id: 4, 
+        title: 'Best'
+    },
+    {
+        id: 5, 
+        title: 'Bear'
     }
 ];
 
