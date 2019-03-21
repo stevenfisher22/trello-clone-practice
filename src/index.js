@@ -16,28 +16,28 @@ const Card = ({items}) => (
 
 
 const ListItem = ({title}) => (
-    <div>
+    <div className="list-item">
         {title}
     </div>
 )
 
 
 const Title = () => (
-    <div>
+    <div className="title">
         Phone Features
     </div>
 );
 
 
 const Ellipsis = () => (
-    <div>
+    <div className="ellipsis">
         ...
     </div>
 );
 
 
 const AddButton = () => (
-    <div>
+    <div className="add-button">
         Add a card...
     </div>
 );
