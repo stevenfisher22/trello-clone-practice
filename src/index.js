@@ -7,18 +7,20 @@ const Card = ({items}) => (
     <div className="card">
         <Title />
         <Ellipsis />
-        {items.map(item => (
-            <ListItem key={item.id} title={item.title} />
-        ))}
+        <table className="table">
+            {items.map(item => (
+                <ListItem key={item.id} title={item.title} />
+            ))}
+        </table>
         <AddButton />
     </div>
 );
 
 
 const ListItem = ({title}) => (
-    <div className="list-item">
-        {title}
-    </div>
+    <tr className="list-item">
+        <td>{title}</td> 
+    </tr>
 )
 
 
